@@ -131,3 +131,4 @@ dmypy.json
 # eda
 __extra__/*
 data/*
+.vscode/*
