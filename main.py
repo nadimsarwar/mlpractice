@@ -25,10 +25,11 @@ def main(args):
             data_path   =   the location of folder that contains test and train in CDB-3.1.2
             save_path   =   path to save the tfrecords
     '''
-    # input
+    # input-- > prone to change
     data_path=args.data_path
     train_path =os.path.join(data_path,'Train')
     test_path  =os.path.join(data_path,'Test')
+    
     # image paths
     LOG_INFO("Collecting Train Images")
     train_img_paths=[img_path for img_path in tqdm(glob(os.path.join(train_path,"*/*.bmp")))]
