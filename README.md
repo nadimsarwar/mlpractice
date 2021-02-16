@@ -42,6 +42,8 @@ machine learning practice
                             label denoter (by default : train)
 
 ```
+# Training
+* check **colab.ipynb** for training details
 # Folder Structure
 **THE FOLDER STRUCTURE OF PASSED DATA PATH MUST BE AS FOLLOWS**
 ```python
@@ -58,5 +60,4 @@ machine learning practice
 ```
 # TODO
 * Error Handling: add try exception blocks
-* **colab.py**: reformat with config.json
 * **Documentation**
